@@ -8,5 +8,5 @@ const app = express();
 const PORT = process.env.NODE_PORT;
 
 app.listen(PORT, function(){
-    console.log(`Server At Por ${PORT}`);
+    console.log(`Server At Port ${PORT}`);
 })
